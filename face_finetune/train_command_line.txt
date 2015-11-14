@@ -1,0 +1,7 @@
+./build/tools/caffe train --solver=models/face_finetune/solver.prototxt -weights models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel -gpu 0
+
+./build/tools/caffe train --solver=models/face_finetune/solver.prototxt --snapshot=models/face_finetune/face_finetune_train_iter_30000.solverstate
+
+
+# create lmdb
+sh examples/face_finetune/create_face_finetune.sh

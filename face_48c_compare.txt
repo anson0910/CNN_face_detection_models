@@ -1,0 +1,2 @@
+original (no padding) : 			0.995		400000
+original + 2 zero padding :			0.995		400000

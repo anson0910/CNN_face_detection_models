@@ -1,0 +1,3 @@
+original (no padding) : 			0.971
+original + 1 zero padding :			0.968
+change 3x3 filter to 2 2x2 filters :

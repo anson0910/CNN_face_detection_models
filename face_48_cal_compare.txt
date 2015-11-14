@@ -1,0 +1,4 @@
+original (no padding) : 			0.4065		390000
+original + 2 zero padding :			0.433		370000
+change 5x5 filter to 2 5x5 filters :	      0.4995	     400000
+change 5x5 filter to 2 5x5 filters  + zero padding:	      0.493	     400000

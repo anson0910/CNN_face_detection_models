@@ -1,0 +1,16 @@
+net: "models/face_48c/train_val.prototxt"
+test_iter: 20
+test_interval:500
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 0.008
+momentum: 0.9
+weight_decay: 0.006
+# The learning rate policy
+lr_policy: "step"
+stepsize: 10000		#30000
+gamma: 0.5
+display: 50
+max_iter: 200000
+snapshot: 10000
+snapshot_prefix: "models/face_48c/face_48c_train"
+solver_mode: GPU

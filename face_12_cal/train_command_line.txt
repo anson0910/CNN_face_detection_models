@@ -1,0 +1,6 @@
+./build/tools/caffe train --solver=models/face_12_cal/solver.prototxt
+
+./build/tools/caffe train --solver=models/face_12_cal/solver.prototxt --snapshot=models/face_12_cal/face_12_cal_train_iter_400000.solverstate
+
+# create lmdb
+sh examples/face_12_cal/create_face_12_cal.sh
