@@ -1,7 +1,7 @@
 ./build/tools/caffe train --solver=models/face_24_cal/solver.prototxt
 
-./build/tools/caffe train --solver=models/face_24_cal/solver.prototxt --snapshot=models/face_24_cal/face_24_cal_train_iter_30000.solverstate
+LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 ./build/tools/caffe train --solver=models/face_24_cal/solver.prototxt --snapshot=models/face_24_cal/face_24_cal_train_iter_10000.solverstate
 
 
 # create lmdb
-sh examples/face_24_cal/create_face_24_cal.sh
+LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6  sh examples/face_24_cal/create_face_24_cal.sh

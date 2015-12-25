@@ -9,7 +9,7 @@ weight_decay: 0.008		# 0.004
 lr_policy: "step"
 stepsize: 30000
 gamma: 0.5
-display: 500
+display: 2500   #500
 max_iter: 400000
 snapshot: 10000
 snapshot_prefix: "models/face_12c/face_12c_train"
