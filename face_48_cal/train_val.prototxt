@@ -13,7 +13,7 @@ layer {
     mean_value: 104
     mean_value: 117
     mean_value: 123
-    mirror: true	# maps [0 255] to [0 1]
+    mirror: false	# maps [0 255] to [0 1]
   }
   data_param {
     source: "examples/face_48_cal/face_train_lmdb"
